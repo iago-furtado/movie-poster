@@ -1,0 +1,109 @@
+/*****************
+*  Global Style  *
+******************/
+/* Add the poster's font */
+@font-face {
+    font-family: 'castellar';
+    src: url(../fonts/CastellarMT.ttf);
+}
+h1, h2, h3, h4, h5{
+    margin: 0px;
+    font-family: 'castellar'; 
+}
+h1, h2{
+    color: darkgoldenrod;
+}
+body{
+    background-color: black;
+}
+body main{
+    margin: 0 30%;
+    align-items: center;
+    background-color: black;
+}
+
+
+/*****************
+*   Main Style   *
+******************/
+/* Add the img as background-image */
+.container{
+    background-image: url("../img/poster-2.jpg");
+    background-repeat: no-repeat;
+    height: 690px;
+    width: 420px;
+}
+/* Ajusting the top phrase */
+.top{
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+    text-align: center;
+}
+.top div{
+    margin-top: 80px;
+    
+}
+.top div:nth-child(1){
+    padding-right: 7%;
+}
+.top div:nth-child(2){
+    padding-left: 20%;
+}
+/* Ajusting the movie name and actor name */
+.name{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin-top: 435px;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 9px;
+    letter-spacing: -0.1em;
+    padding-bottom: 2px;
+}
+h2{
+    color: aliceblue;
+    font-size: 14px;
+    letter-spacing: 0.5em;
+    font-weight: lighter;
+    height: 15px;
+}
+h1{
+    font-size: 43px;
+    letter-spacing: 0.2em;
+    font-weight: lighter;
+}
+/* Ajusting the bottom text */
+p{
+    color: rgb(236, 226, 203);
+    font-size: 7px;
+    margin: 0px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    letter-spacing: -1;
+}
+.box{
+    margin-top: 15px;
+}
+.text{
+    margin: 0px;
+}
+/* Ajusting the botton images */
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+/* Ajusting the bottom img */
+.bottom div img{
+    height: auto;
+    width: 150px;
+}
+.bottom div h4{
+    color: rgb(236, 226, 203);
+    font-size: 10px;
+}
